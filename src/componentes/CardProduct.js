@@ -5,10 +5,10 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 export const CardProduct = () => {
 
-    const [isDesktop, setDesktop] = useState(window.innerWidth > 650)
+    const [isDesktop, setDesktop] = useState(window.innerWidth > 760)
 
     const updateMedia = () => {
-        setDesktop(window.innerWidth > 650)
+        setDesktop(window.innerWidth > 760)
     }
 
     useEffect (() => {
